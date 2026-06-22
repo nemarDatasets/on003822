@@ -1,29 +1,89 @@
 {
   "version": "2.0",
-  "dataset_id": "on003822",
-  "source": "openneuro",
-  "source_id": "ds003822",
+  "pipeline_stage": "enriched",
   "title": "EEG: Probabilistic Learning with Affective Feedback: Exp #1",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Darin R. Brown": {},
     "Trevor Jackson": {},
     "James F Cavanagh": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds003822.v1.1.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on003822",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003822",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1007/s13415-021-00925-6",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.1.1",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".JPG",
+    ".db",
+    ".fdt",
+    ".jpg",
+    ".json",
+    ".m",
+    ".mat",
+    ".md",
+    ".set",
+    ".tsv",
+    ".txt",
+    ".xlsx"
+  ],
+  "description": "This EEG dataset comprises recordings from 25 college-age participants performing a probabilistic learning task with affective feedback. The study investigates the reward positivity component and its sensitivity to affective liking during reinforcement learning. Data were collected circa 2018 at the Cognitive Research and Clinical Neuroscience Laboratory (CRCL) at the University of New Mexico.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "reinforcement learning"
+    },
+    {
+      "term": "reward processing"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "affective feedback"
+    },
+    {
+      "term": "probabilistic learning"
+    },
+    {
+      "term": "reward positivity"
+    },
+    {
+      "term": "emotion"
+    },
+    {
+      "term": "affect"
+    },
+    {
+      "term": "young adults"
+    }
+  ],
+  "source_hash": "6cd1ade8008b7a4c337b9f1084d62330cc62b793e23b6165e3d51838b2ca1a09"
 }
