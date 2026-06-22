@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG: Probabilistic Learning with Affective Feedback: Exp #1",
-  "description": "This EEG dataset comprises recordings from 25 college-age participants performing a reinforcement learning task with affective feedback, collected in 2018 at the Clinical Research Center Laboratory (CRCL) at the University of New Mexico. The study investigates the reward positivity component of the event-related potential and its sensitivity to affective liking during probabilistic learning. The dataset includes raw EEG data, behavioral task parameters, and analysis scripts supporting investigation of neural correlates of reward processing and affective valuation.",
+  "description": "This EEG dataset comprises recordings from 25 college-age participants performing a reinforcement learning task with affective feedback, collected in 2018 at the Clinical Research Center Laboratory (CRCL) at the University of New Mexico. The study investigates the reward positivity component of the event-related potential and its sensitivity to affective liking during probabilistic learning. The dataset includes raw EEG data, behavioral task parameters, and analysis scripts supporting the published findings in Cognitive, Affective, & Behavioral Neuroscience.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -18,10 +18,13 @@
       "term": "reinforcement learning"
     },
     {
-      "term": "reward processing"
+      "term": "reward positivity"
     },
     {
-      "term": "event-related potentials"
+      "term": "Event-Related Potentials, P300",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
     },
     {
       "term": "affective feedback"
