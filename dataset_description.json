@@ -1,15 +1,21 @@
 {
-    "Name": "EEG: Probabilistic Learning with Affective Feedback: Exp #1",
-    "ReferencesAndLinks": [
-        "pending"
-    ],
-    "Authors": [
-        "Darin R. Brown",
-        "Trevor Jackson",
-        "James F Cavanagh"
-    ],
-    "License": "CC0",
-    "BIDSVersion": "1.1.1",
-    "Funding": [],
-    "DatasetDOI": "10.18112/openneuro.ds003822.v1.1.0"
+  "Name": "EEG: Probabilistic Learning with Affective Feedback: Exp #1",
+  "ReferencesAndLinks": [
+    "pending"
+  ],
+  "Authors": [
+    "Darin R. Brown",
+    "Trevor Jackson",
+    "James F Cavanagh"
+  ],
+  "License": "CC0",
+  "BIDSVersion": "1.1.1",
+  "Funding": [],
+  "DatasetDOI": "10.82901/nemar.on003822",
+  "SourceDatasets": [
+    {
+      "DOI": "10.18112/openneuro.ds003822.v1.1.0"
+    }
+  ],
+  "Version": "1.0.0"
 }
