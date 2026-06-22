@@ -1,0 +1,29 @@
+{
+  "version": "2.0",
+  "dataset_id": "on003822",
+  "source": "openneuro",
+  "source_id": "ds003822",
+  "title": "EEG: Probabilistic Learning with Affective Feedback: Exp #1",
+  "authors": {
+    "Darin R. Brown": {},
+    "Trevor Jackson": {},
+    "James F Cavanagh": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds003822.v1.1.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.1.1",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ]
+}
