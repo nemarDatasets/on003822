@@ -1,1 +1,3 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on003822-blue)](https://doi.org/10.82901/nemar.on003822)
+
 RL task in N=25 college age participants.  Data collected circa 2018 in the CRCL at UNM.  The paper [Brown, D.R., Jackson, T.J. & Cavanagh, J.F.  The Reward Positivity is sensitive to affective liking]  is now coming out in Cognitive, Affective, & Behavioral Neuroscience.  Your best bet for understanding this task  would be to read that paper first.  I've included additional scripts to help understand stimulus triggers etc.  These additional scripts were for a secondary analysis: they were not the scripts used for the paper above.  So they are slightly different and have some interesting (unfinished) tangents. - James F Cavanagh 09/29/2021
