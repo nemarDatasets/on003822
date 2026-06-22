@@ -1,7 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "EEG: Probabilistic Learning with Affective Feedback: Exp #1",
+  "description": "This EEG dataset comprises recordings from 25 college-age participants performing a reinforcement learning task with affective feedback, collected in 2018 at the Clinical Research Center Laboratory (CRCL) at the University of New Mexico. The study investigates the reward positivity component of the event-related potential and its sensitivity to affective liking during probabilistic learning. The dataset includes raw EEG data, behavioral task parameters, and analysis scripts supporting investigation of neural correlates of reward processing and affective valuation.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -9,50 +10,6 @@
     "Trevor Jackson": {},
     "James F Cavanagh": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds003822.v1.1.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on003822",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003822",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "10.1007/s13415-021-00925-6",
-      "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".JPG",
-    ".db",
-    ".fdt",
-    ".jpg",
-    ".json",
-    ".m",
-    ".mat",
-    ".md",
-    ".set",
-    ".tsv",
-    ".txt",
-    ".xlsx"
-  ],
-  "description": "This EEG dataset comprises recordings from 25 college-age participants performing a probabilistic learning task with affective feedback. The study investigates the reward positivity component and its sensitivity to affective liking during reinforcement learning. Data were collected circa 2018 at the Cognitive Research and Clinical Neuroscience Laboratory (CRCL) at the University of New Mexico.",
   "keywords": [
     {
       "term": "EEG"
@@ -71,19 +28,52 @@
     },
     {
       "term": "probabilistic learning"
-    },
-    {
-      "term": "reward positivity"
-    },
-    {
-      "term": "emotion"
-    },
-    {
-      "term": "affect"
-    },
-    {
-      "term": "young adults"
     }
   ],
-  "source_hash": "6cd1ade8008b7a4c337b9f1084d62330cc62b793e23b6165e3d51838b2ca1a09"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on003822",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003822",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1007/s13415-021-00925-6",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds003822.v1.1.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    }
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "6.2 GB (209 files)"
+  ],
+  "formats": [
+    ".JPG",
+    ".db",
+    ".fdt",
+    ".jpg",
+    ".json",
+    ".m",
+    ".mat",
+    ".md",
+    ".set",
+    ".tsv",
+    ".txt",
+    ".xlsx",
+    ".yml"
+  ],
+  "methods_description": "EEG data were collected from 25 college-age participants performing a reinforcement learning task with affective feedback. Data collection occurred circa 2018 at the Clinical Research Center Laboratory (CRCL) at the University of New Mexico.",
+  "source_hash": "6d0b4ad94906c5cc8b4eb6b6714d1ea5bf6f8926cefa474f5ae1dea29284dc3c"
 }
